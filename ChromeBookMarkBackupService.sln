@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChromeBookMarkBackupService", "ChromeBookMarkBackupService.csproj", "{D4DDE296-38D5-4369-BB2C-30B09069A8B3}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BookMarkBackupService", "BookMarkBackupService\BookMarkBackupService.vdproj", "{4E7B3F8B-293E-46D0-9D2A-7068C9633C38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4DDE296-38D5-4369-BB2C-30B09069A8B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4DDE296-38D5-4369-BB2C-30B09069A8B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4DDE296-38D5-4369-BB2C-30B09069A8B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4DDE296-38D5-4369-BB2C-30B09069A8B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E7B3F8B-293E-46D0-9D2A-7068C9633C38}.Debug|Any CPU.ActiveCfg = Debug
+		{4E7B3F8B-293E-46D0-9D2A-7068C9633C38}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18EE0507-BBD0-46D2-A8BE-D2B86822F347}
+	EndGlobalSection
+EndGlobal
