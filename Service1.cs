@@ -46,7 +46,6 @@ namespace ChromeBookMarkBackupService
 
             string fileName = DateTime.Now.ToString("yyyy_MM_dd HH_mm_ss") + "_Bookmarks_back";
             File.Copy(SourceFilePath, Path.Combine(GoalFolderPath, fileName), true);
-
         }
 
         protected override void OnStop()
