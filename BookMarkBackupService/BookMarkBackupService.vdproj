@@ -199,7 +199,7 @@
             "SourcePath" = "8:D:\\SynologyDrive\\icons\\backup\\backup_Ymh_icon.ico"
             "TargetName" = "8:backup_Ymh_icon.ico"
             "Tag" = "8:"
-            "Folder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
+            "Folder" = "8:_C22FCF0621744B77974E2AF1F6C8C623"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -283,17 +283,6 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
-                    "{9EF0B969-E518-4E46-987F-47570745A589}:_52C2282E688A4E89A4D86986D57C1174"
-                    {
-                    "Name" = "8:App"
-                    "AlwaysCreate" = "11:FALSE"
-                    "Condition" = "8:"
-                    "Transitive" = "11:FALSE"
-                    "Property" = "8:_E596BC594BE848F9B12ADCC4F9F179FC"
-                        "Folders"
-                        {
-                        }
-                    }
                 }
             }
         }
@@ -313,7 +302,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BookMarkBackupService"
         "ProductCode" = "8:{16AEC8B3-ED42-4E39-ACFA-D2A94C502A05}"
-        "PackageCode" = "8:{AC5D6C45-FA06-4764-B381-D534F7D3BC6B}"
+        "PackageCode" = "8:{4E314422-0127-43FB-9085-5DE73EF39288}"
         "UpgradeCode" = "8:{85FCE069-FE02-47B9-A904-7A6FC7439BEE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -433,20 +422,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD59D22B534C4898A4CE58216D34AB38"
-            {
-            "Name" = "8:ChromeBookMarkBackupService"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_FF9112692FD44DD3A7A5AE62C01DE352"
-            "Folder" = "8:_52C2282E688A4E89A4D86986D57C1174"
-            "WorkingFolder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
-            "Icon" = "8:_036F73E13BBE44B794CC0BA21E9FAD83"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {
@@ -1069,7 +1044,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FF9112692FD44DD3A7A5AE62C01DE352"
             {
-            "SourcePath" = "8:..\\obj\\Debug\\ChromeBookMarkBackupService.exe"
+            "SourcePath" = "8:..\\obj\\Release\\ChromeBookMarkBackupService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
