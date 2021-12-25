@@ -15,6 +15,12 @@
     {
         "Entry"
         {
+        "MsmKey" = "8:_036F73E13BBE44B794CC0BA21E9FAD83"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_71FFF9184782CEA4B4F5BD141EEE0B0D"
         "OwnerKey" = "8:_FF9112692FD44DD3A7A5AE62C01DE352"
         "MsmSig" = "8:_UNDEFINED"
@@ -94,6 +100,14 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.7.2"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.7.2 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.7.2"
+                    }
+                }
             }
         }
     }
@@ -180,6 +194,26 @@
         }
         "File"
         {
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_036F73E13BBE44B794CC0BA21E9FAD83"
+            {
+            "SourcePath" = "8:D:\\SynologyDrive\\icons\\backup\\backup_Ymh_icon.ico"
+            "TargetName" = "8:backup_Ymh_icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_71FFF9184782CEA4B4F5BD141EEE0B0D"
             {
             "AssemblyRegister" = "3:1"
@@ -249,6 +283,17 @@
             "Property" = "8:ProgramMenuFolder"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_52C2282E688A4E89A4D86986D57C1174"
+                    {
+                    "Name" = "8:App"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_E596BC594BE848F9B12ADCC4F9F179FC"
+                        "Folders"
+                        {
+                        }
+                    }
                 }
             }
         }
@@ -268,7 +313,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:BookMarkBackupService"
         "ProductCode" = "8:{16AEC8B3-ED42-4E39-ACFA-D2A94C502A05}"
-        "PackageCode" = "8:{9A88F59D-8B3A-4163-935C-9EC73E900B41}"
+        "PackageCode" = "8:{AC5D6C45-FA06-4764-B381-D534F7D3BC6B}"
         "UpgradeCode" = "8:{85FCE069-FE02-47B9-A904-7A6FC7439BEE}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -276,16 +321,16 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:Yao"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:BookMarkBackupService"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Yao"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_036F73E13BBE44B794CC0BA21E9FAD83"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -388,6 +433,20 @@
         }
         "Shortcut"
         {
+            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_FD59D22B534C4898A4CE58216D34AB38"
+            {
+            "Name" = "8:ChromeBookMarkBackupService"
+            "Arguments" = "8:"
+            "Description" = "8:"
+            "ShowCmd" = "3:1"
+            "IconIndex" = "3:0"
+            "Transitive" = "11:FALSE"
+            "Target" = "8:_FF9112692FD44DD3A7A5AE62C01DE352"
+            "Folder" = "8:_52C2282E688A4E89A4D86986D57C1174"
+            "WorkingFolder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
+            "Icon" = "8:_036F73E13BBE44B794CC0BA21E9FAD83"
+            "Feature" = "8:"
+            }
         }
         "UserInterface"
         {
@@ -880,41 +939,6 @@
                             }
                         }
                     }
-                    "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_963A3B8A94CE42D28A16DB56F449A5EF"
-                    {
-                    "Sequence" = "3:110"
-                    "DisplayName" = "8:安裝資料夾"
-                    "UseDynamicProperties" = "11:TRUE"
-                    "IsDependency" = "11:FALSE"
-                    "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
-                        "Properties"
-                        {
-                            "BannerBitmap"
-                            {
-                            "Name" = "8:BannerBitmap"
-                            "DisplayName" = "8:#1001"
-                            "Description" = "8:#1101"
-                            "Type" = "3:8"
-                            "ContextData" = "8:Bitmap"
-                            "Attributes" = "3:4"
-                            "Setting" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                            "InstallAllUsersVisible"
-                            {
-                            "Name" = "8:InstallAllUsersVisible"
-                            "DisplayName" = "8:#1059"
-                            "Description" = "8:#1159"
-                            "Type" = "3:5"
-                            "ContextData" = "8:1;True=1;False=0"
-                            "Attributes" = "3:0"
-                            "Setting" = "3:0"
-                            "Value" = "3:1"
-                            "DefaultValue" = "3:1"
-                            "UsePlugInResources" = "11:TRUE"
-                            }
-                        }
-                    }
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_C1B9E17788014A2490CA6D8712652138"
                     {
                     "Sequence" = "3:100"
@@ -1045,7 +1069,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_FF9112692FD44DD3A7A5AE62C01DE352"
             {
-            "SourcePath" = "8:..\\ChromeBookMarkBackupService\\obj\\Debug\\ChromeBookMarkBackupService.exe"
+            "SourcePath" = "8:..\\obj\\Debug\\ChromeBookMarkBackupService.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_D4C8458CC8D746E5B809FD79BA8EB529"
